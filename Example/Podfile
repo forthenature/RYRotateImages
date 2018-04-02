@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RYRotateImages_Example' do
+  pod 'RYRotateImages', :path => '../'
+
+  target 'RYRotateImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
