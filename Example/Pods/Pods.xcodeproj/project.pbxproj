@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		12A2EF7C92EAA0EF20A9254E47CA9769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		31E7808D7520FF1D9C3E59048DD2526A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060E035F1745287920FC282C60E0E75 /* ReplaceMe.m */; };
 		34F4A14E9FA2C8E0AE6C64F18A01B953 /* Pods-RYRotateImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D45F0C08DB8757AFE48BB7208782A91 /* Pods-RYRotateImages_Tests-dummy.m */; };
 		4B21709A970DA2416875F010AD48929D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52C64015A0A26519C8AFA0CA8D507A4F /* Pods-RYRotateImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC479D8228629E7B7D6F6970CE47AE99 /* Pods-RYRotateImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699A91C26180CE3652CFF435A0D7922D /* Pods-RYRotateImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA00BF11D34B324AB956B8F2C0CFD0 /* Pods-RYRotateImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97555A710D1A7A44E29EEAFB59621C9A /* RYRotateImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75488B2CB836BA27525CC22E4551667B /* RYRotateImages-dummy.m */; };
+		98CD127A2072622F00CEBCF0 /* RYRotateImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CD12762072622E00CEBCF0 /* RYRotateImages.h */; };
+		98CD127B2072622F00CEBCF0 /* RYRotateImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD12772072622E00CEBCF0 /* RYRotateImages.m */; };
+		98CD127C2072622F00CEBCF0 /* RYRotateImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CD12782072622E00CEBCF0 /* RYRotateImageView.h */; };
+		98CD127D2072622F00CEBCF0 /* RYRotateImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD12792072622F00CEBCF0 /* RYRotateImageView.m */; };
 		B1990401FC603A625E71D1E0444BF09C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B4DDED194597076EC73BD2A5D7A02D3C /* RYRotateImages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7607FAEF507D10AA29D73A8B0C2ED20E /* RYRotateImages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E1691D01D450C0502ACF54D3F70461 /* Pods-RYRotateImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2546532A59B06F2F964EED6C394E8C /* Pods-RYRotateImages_Example-dummy.m */; };
@@ -32,12 +35,11 @@
 /* Begin PBXFileReference section */
 		0D45F0C08DB8757AFE48BB7208782A91 /* Pods-RYRotateImages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYRotateImages_Tests-dummy.m"; sourceTree = "<group>"; };
 		1841B49BB1D938DF7A2E13AAAA3C470F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2060E035F1745287920FC282C60E0E75 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYRotateImages/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		222B38A59E4171367BF166CE6A652EE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A07030062B1ECE2B5641E4FFB8E78AA /* Pods-RYRotateImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRotateImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2DF118B8F4ED77D502D1E6D3157F1C82 /* Pods-RYRotateImages_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYRotateImages_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		330403CC05BF9359DEE3EB0D25FCA4D3 /* Pods-RYRotateImages_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRotateImages_Tests-resources.sh"; sourceTree = "<group>"; };
-		3DEC4BB87C46024A1E82B7824A784C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3DEC4BB87C46024A1E82B7824A784C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4BCB840C697B772BA86DD7A5DCD4AD92 /* RYRotateImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYRotateImages.modulemap; sourceTree = "<group>"; };
 		5E2546532A59B06F2F964EED6C394E8C /* Pods-RYRotateImages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYRotateImages_Example-dummy.m"; sourceTree = "<group>"; };
 		6372891AFCA45D4E992F8C37939AAD29 /* Pods-RYRotateImages_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRotateImages_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -45,18 +47,22 @@
 		6D188C1EA47B88A99EA220CE65FF67AF /* Pods-RYRotateImages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRotateImages_Example-frameworks.sh"; sourceTree = "<group>"; };
 		75488B2CB836BA27525CC22E4551667B /* RYRotateImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYRotateImages-dummy.m"; sourceTree = "<group>"; };
 		7607FAEF507D10AA29D73A8B0C2ED20E /* RYRotateImages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRotateImages-umbrella.h"; sourceTree = "<group>"; };
-		81B0A968B5E657D2B30FCC1D488F7C3A /* Pods_RYRotateImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRotateImages_Tests.framework; path = "Pods-RYRotateImages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89407DDA6EDB717BE02198003770442A /* RYRotateImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYRotateImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81B0A968B5E657D2B30FCC1D488F7C3A /* Pods_RYRotateImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRotateImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89407DDA6EDB717BE02198003770442A /* RYRotateImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RYRotateImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		91DF41B4E54057C8782750CA36B9D49D /* Pods-RYRotateImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRotateImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CD12762072622E00CEBCF0 /* RYRotateImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RYRotateImages.h; path = RYRotateImages/Classes/RYRotateImages.h; sourceTree = "<group>"; };
+		98CD12772072622E00CEBCF0 /* RYRotateImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RYRotateImages.m; path = RYRotateImages/Classes/RYRotateImages.m; sourceTree = "<group>"; };
+		98CD12782072622E00CEBCF0 /* RYRotateImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RYRotateImageView.h; path = RYRotateImages/Classes/RYRotateImageView.h; sourceTree = "<group>"; };
+		98CD12792072622F00CEBCF0 /* RYRotateImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RYRotateImageView.m; path = RYRotateImages/Classes/RYRotateImageView.m; sourceTree = "<group>"; };
 		98D12BDC32C393D780ECBA9328B8D542 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C9D1207EB9E037E02BC042BA77BBA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A8C9D1207EB9E037E02BC042BA77BBA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AEE3949D5694A366968730B0C6149AFE /* Pods-RYRotateImages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRotateImages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B74CF2FBC5129CBB2D8583E460B76851 /* Pods-RYRotateImages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRotateImages_Example.modulemap"; sourceTree = "<group>"; };
 		BA1921C465E55CE4FEE482788FA0B70A /* Pods-RYRotateImages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRotateImages_Tests.modulemap"; sourceTree = "<group>"; };
 		BC479D8228629E7B7D6F6970CE47AE99 /* Pods-RYRotateImages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYRotateImages_Example-umbrella.h"; sourceTree = "<group>"; };
 		BCD19E3E7E6615A2D1A26FD8E3C344AC /* Pods-RYRotateImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRotateImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C157E25D3753D0E75276523F2536D8C4 /* RYRotateImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYRotateImages.framework; path = RYRotateImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C157E25D3753D0E75276523F2536D8C4 /* RYRotateImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYRotateImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34EC1C600FBE2C3AE91D31160891612 /* Pods-RYRotateImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRotateImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7FDBFB820CE3D5EE0DEA10444EB5412 /* RYRotateImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRotateImages-prefix.pch"; sourceTree = "<group>"; };
 		C8D5E09EFB3169AAD1B5FD698F55B32C /* RYRotateImages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYRotateImages.xcconfig; sourceTree = "<group>"; };
@@ -64,7 +70,7 @@
 		D6AF9955DDF626BED5493CFBF0320B29 /* Pods-RYRotateImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRotateImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9DA00BF11D34B324AB956B8F2C0CFD0 /* Pods-RYRotateImages_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYRotateImages_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FDEA4C9597E61AD35BF63E414F11D5AB /* Pods-RYRotateImages_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRotateImages_Example-resources.sh"; sourceTree = "<group>"; };
-		FFA13EF01D4CB458E0A1D16F94C92725 /* Pods_RYRotateImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRotateImages_Example.framework; path = "Pods-RYRotateImages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA13EF01D4CB458E0A1D16F94C92725 /* Pods_RYRotateImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRotateImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +132,10 @@
 		2B49FDF86506E96D79FE722EC313BD90 /* RYRotateImages */ = {
 			isa = PBXGroup;
 			children = (
-				2060E035F1745287920FC282C60E0E75 /* ReplaceMe.m */,
+				98CD12762072622E00CEBCF0 /* RYRotateImages.h */,
+				98CD12772072622E00CEBCF0 /* RYRotateImages.m */,
+				98CD12782072622E00CEBCF0 /* RYRotateImageView.h */,
+				98CD12792072622F00CEBCF0 /* RYRotateImageView.m */,
 				5DB0056DB002FDD2A0C50A61BAE085D9 /* Pod */,
 				F6B533887D0B39EC5E87BD059A22E83A /* Support Files */,
 			);
@@ -227,6 +236,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CD127C2072622F00CEBCF0 /* RYRotateImageView.h in Headers */,
+				98CD127A2072622F00CEBCF0 /* RYRotateImages.h in Headers */,
 				B4DDED194597076EC73BD2A5D7A02D3C /* RYRotateImages-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E7808D7520FF1D9C3E59048DD2526A /* ReplaceMe.m in Sources */,
+				98CD127B2072622F00CEBCF0 /* RYRotateImages.m in Sources */,
+				98CD127D2072622F00CEBCF0 /* RYRotateImageView.m in Sources */,
 				97555A710D1A7A44E29EEAFB59621C9A /* RYRotateImages-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

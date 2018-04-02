@@ -23,6 +23,10 @@
 		6D31D03FC86E4B1A6213D938 /* Pods_RYRotateImages_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726A1C0359D2E32BA7BD59CF /* Pods_RYRotateImages_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		98CD12862072649500CEBCF0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98CD12822072649400CEBCF0 /* 3.jpg */; };
+		98CD12872072649500CEBCF0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98CD12832072649400CEBCF0 /* 1.jpg */; };
+		98CD12882072649500CEBCF0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98CD12842072649400CEBCF0 /* 4.jpg */; };
+		98CD12892072649500CEBCF0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CD12852072649400CEBCF0 /* 2.png */; };
 		EA7704770CF61BFAC6A9CB67 /* Pods_RYRotateImages_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B85A62FD04F821DEA84B036 /* Pods_RYRotateImages_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		726A1C0359D2E32BA7BD59CF /* Pods_RYRotateImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRotateImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7951DD1F3926F15A7D515278 /* Pods-RYRotateImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Tests/Pods-RYRotateImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98CD12822072649400CEBCF0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		98CD12832072649400CEBCF0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		98CD12842072649400CEBCF0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		98CD12852072649400CEBCF0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		CF51DC65205C5502FF477F54 /* Pods-RYRotateImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Tests/Pods-RYRotateImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E185BEBAFA93ECC7B3334CBF /* RYRotateImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYRotateImages.podspec; path = ../RYRotateImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EBD70A66739B0B0EF30AFC1C /* Pods-RYRotateImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Example/Pods-RYRotateImages_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +167,10 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98CD12832072649400CEBCF0 /* 1.jpg */,
+				98CD12852072649400CEBCF0 /* 2.png */,
+				98CD12822072649400CEBCF0 /* 3.jpg */,
+				98CD12842072649400CEBCF0 /* 4.jpg */,
 				6003F595195388D20070C39A /* RYRotateImages-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -279,8 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CD12862072649500CEBCF0 /* 3.jpg in Resources */,
+				98CD12882072649500CEBCF0 /* 4.jpg in Resources */,
+				98CD12892072649500CEBCF0 /* 2.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				98CD12872072649500CEBCF0 /* 1.jpg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
