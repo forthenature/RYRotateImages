@@ -1,0 +1,6 @@
+framework module RYRotateImages {
+  umbrella header "RYRotateImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

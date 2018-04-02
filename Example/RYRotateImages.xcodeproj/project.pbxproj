@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		27133522BCEDED4D7FCD55B5 /* Pods-RYRotateImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Example/Pods-RYRotateImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4B4BECDE2E70AB6E3486FE64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B4BECDE2E70AB6E3486FE64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B85A62FD04F821DEA84B036 /* Pods_RYRotateImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRotateImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RYRotateImages_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYRotateImages_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		7951DD1F3926F15A7D515278 /* Pods-RYRotateImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Tests/Pods-RYRotateImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF51DC65205C5502FF477F54 /* Pods-RYRotateImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Tests/Pods-RYRotateImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E185BEBAFA93ECC7B3334CBF /* RYRotateImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYRotateImages.podspec; path = ../RYRotateImages.podspec; sourceTree = "<group>"; };
+		E185BEBAFA93ECC7B3334CBF /* RYRotateImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYRotateImages.podspec; path = ../RYRotateImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EBD70A66739B0B0EF30AFC1C /* Pods-RYRotateImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYRotateImages_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYRotateImages_Example/Pods-RYRotateImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EC33BB2A5DA02E38348C34BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC33BB2A5DA02E38348C34BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

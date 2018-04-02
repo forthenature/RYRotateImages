@@ -1,0 +1,16 @@
+PODS:
+  - RYRotateImages (0.1.0)
+
+DEPENDENCIES:
+  - RYRotateImages (from `../`)
+
+EXTERNAL SOURCES:
+  RYRotateImages:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RYRotateImages: 0ecfd449266057918a1cecf493ee7eeadc0eb528
+
+PODFILE CHECKSUM: ec6e4ca4449f43091c2e5f3d57fce9b1a8b4f202
+
+COCOAPODS: 1.4.0
