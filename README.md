@@ -22,7 +22,7 @@ pod 'RYRotateImages'
 
 ## Author
 
-Jovi, yi.ren@hxlx.com
+Jovi, ren.forthenature@gmail.com
 
 ## License
 
